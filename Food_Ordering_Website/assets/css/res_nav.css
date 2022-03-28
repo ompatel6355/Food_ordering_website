@@ -1,0 +1,115 @@
+.res-display{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 10%;
+    justify-content: center;
+}
+.res-display .card{
+    height:300px;
+    width:300px;
+    text-align: center;
+    margin-top: 50px;
+    /* background-color:lightblue ; */
+}
+
+.res-display .card:hover{
+    box-shadow:0px 0px 6px -1px;
+}
+.home-header-logo{
+    display: flex;
+    align-items: center;
+}
+.home-header-logo img{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    
+}
+.header{
+    margin-left: 10%;
+    
+    margin-right: 10%;
+    /* display: flex; */
+}
+
+.home-search{
+    display: flex;
+
+}
+
+.header-search{
+    display: inline-block;
+}
+
+.header-search .d-flex div button{
+    background-color: #fc8019;
+    color:white;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.nav ul{
+    /* text-decoration: none; */
+    display: flex;
+    list-style-type: none;
+    margin:auto !important;
+    /* margin-bottom: 0!important; */
+    /* margin-top:auto; */
+}
+.nav{
+    /* display: inline-block; */
+    float: right;
+    margin-left: auto;
+}
+li{
+    padding: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+.nav ul li a:hover, .nav ul li a svg:hover{
+    color:#fc8019;
+}
+
+
+/* Signmodal css */
+
+
+.login-form-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-form-container .bottom-login{
+    text-align: center;
+}
+
+.rext{
+    text-align: center;
+    font-weight:50;
+}
+#hide1{
+    display:none;
+}
+
+#additem{
+    display:none;
+}
+
+a{
+    cursor: pointer;
+}
+
+#settinghide2{
+    display:none;
+}
+.nav ul li:hover{
+    color:#fc8019;
+}
+.card{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}

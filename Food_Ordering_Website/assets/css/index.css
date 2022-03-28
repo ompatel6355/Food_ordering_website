@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* section{
+    top: 25%;
+    left: 15%;
+    position: absolute;
+} */
+.index-container{
+    /* margin: 5%; */
+}
+.index-container {
+    display: flex;
+}
+.container-left img, .container-left div  {
+    display: inline;
+}
+.container-left div{
+    float: right;
+    margin-top: 29px;
+}
+.container-left-body h5{
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: #686b78;
+}
+
+.d-flex button{
+    background-color: #fc8019;
+    color:white;
+    font-weight: bolder;
+}
+
+.container-right{
+    float: right;
+    display: contents;
+}
+.container-right img{
+    height: 100%;
+    width: 100%;
+    margin-left: 65px;
+}
+
+
+
+.index-middle-sec{
+    background-color: black;
+}
+
+section{
+    /* background-color: blue; */
+}
+
+.index-middle-sec{
+    display: flex;
+}
+.index-middle-sec h2, .index-middle-sec p{
+    color:white;
+    
+}
+
+.index-middle-sec{
+    display: flex;
+}
+.container-1, .container-2, .container-3{
+    width: 33.33%;
+}
+
+.container-1 img, .container-2 img, .container-3 img{
+  
+        margin-left: auto;
+        justify-content: center;
+        display: block;
+        margin-right: auto;
+        height: 200px;
+    width: 100px;
+    
+}
+.container-1, .container-2, .container-3{
+ text-align: center;
+}
+
+
+.container-1 div, .container-2 div, .container-3 div{
+  
+    width:80%;
+
+}
+
+.index-body-sec{
+    margin-top: 100px;
+}

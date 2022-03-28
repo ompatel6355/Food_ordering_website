@@ -1,0 +1,259 @@
+.res-display{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 10%;
+    justify-content: space-evenly;
+}
+.res-display .container{
+    height:300px;
+    width:300px;
+    text-align: center;
+    margin-top: 50px;
+    /* background-color:lightblue ; */
+}
+
+.res-display .container:hover{
+    box-shadow:0px 0px 6px -1px;
+}
+
+.card-body h5{
+    margin-top: 5px;
+}
+
+
+.home-header-logo{
+    display: flex;
+    align-items: center;
+}
+.home-header-logo img{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    
+}
+.header{
+    margin-left: 10%;
+    
+    margin-right: 10%;
+    /* display: flex; */
+}
+
+.home-search{
+    display: flex;
+
+}
+
+.header-search{
+    display: inline-block;
+}
+
+.header-search .d-flex div button{
+    background-color: #fc8019;
+    color:white;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.nav ul{
+    /* text-decoration: none; */
+    display: flex;
+    list-style-type: none;
+    margin:auto !important;
+    /* margin-bottom: 0!important; */
+    /* margin-top:auto; */
+}
+.nav{
+    /* display: inline-block; */
+    float: right;
+    margin-left: auto;
+}
+li{
+    padding: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+.nav ul li a:hover, .nav ul li a svg:hover{
+    color:#fc8019;
+}
+
+
+
+
+/* Signmodal css */
+
+
+.login-form-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-form-container .bottom-login{
+    text-align: center;
+}
+.mb-3 .pass-line{
+    display: flex;
+    align-items: center;
+    background: #e8f0fe;
+}
+.mb-3 .pass-line span{
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.signinmodal input{
+    border: 0px !important;
+}
+
+ #hide1{
+    display:none;
+}
+
+.form-control{
+    border: 0px !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0px;
+}
+
+.rext{
+    text-align: center;
+    font-weight:50;
+}
+
+
+#card-button{
+    
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid black !important;
+}
+
+#card-button:hover{
+    
+    background-color: #fc8019;
+    color:white;
+    cursor: pointer;
+}
+#area-input1{
+    margin-right:10px;
+}
+.signinmodal{
+    position: absolute;
+    top: 0px;
+    background: white;
+    color:#000000;
+
+}
+.signinmodal button{
+    background-color:#fc8019;
+    border:0px !important;
+}
+#loginmodal{
+    position: absolute;
+    display: none;
+    animation-timing-function: linear;
+    /* right: -100%; */
+  -webkit-animation-name: login;
+  -webkit-animation-duration:1s;
+  animation-iteration-count: 1;
+    height: 100%;
+}
+
+@-webkit-keyframes login {
+    0% {
+      left: -30%;
+    }
+    
+    100% {
+      left: 0;    
+    }
+  }
+.cross-icon{
+    background-color: white;
+    display: inline-grid;
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+.cross-icon svg{
+
+    width: 20px;
+    height: 20px;
+}
+.cross-icon svg:hover{
+    box-shadow: 0px 0px 2px 0px;
+}
+.card-body img{
+    height: 200px;
+    width: 200px;
+}
+.res-display .container{
+    height:100%;
+}
+/* .login-header{
+    
+} */
+
+#dishnumber{
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+#area-input1:focus{
+    box-shadow: 0px 0px 5px 0px;
+}
+
+#profile_modal{
+    position: absolute;
+    right: 0;
+    display: none;
+    z-index: 2;
+    animation-timing-function: linear;
+    /* right: -100%; */
+  -webkit-animation-name: run;
+  -webkit-animation-duration:1s;
+  animation-iteration-count: 1;
+}
+@-webkit-keyframes run {
+    0% {
+      right: -30%;
+    }
+    
+    100% {
+      right: 0;    
+    }
+  }
+
+
+
+
+
+
+
+/* input tag css */
+/*= Reset CSS 
+============= */
+html, body {border: 0; margin: 0; padding: 0;}
+body {font: 14px "Lato", Arial, sans-serif; min-width: 100%; min-height: 100%; color: #666;}
+.container{margin: 0 auto; max-width: 1200px;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.row{float: left; width: 100%; padding: 20px 0 50px;}
+h2{text-align: center; color: #2079df; font-size: 28px; float: left; width: 100%; margin: 30px 0; position: relative; line-height: 58px; font-weight: 400;}
+h2:before{content: ""; position: absolute; left: 50%; bottom: 0; width: 100px; height: 2px; background-color: #2079df; margin-left: -50px;}
+/*= Reset CSS End
+================= */
+
+/*= input focus effects css
+=========================== */
+:focus{outline: none;}/* necessary to give position: relative to parent. */
+input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+
+.effect-1{border: 0; padding: 7px 0; border-bottom: 1px solid #ccc;}
+
+.effect-1 ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+.effect-1:focus ~ .focus-border{width: 100%; transition: 0.4s;}
+

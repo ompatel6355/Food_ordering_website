@@ -1,0 +1,16 @@
+.card-img-top {
+    height: 200px;
+    width: 200px;
+}
+
+.res-display {
+    justify-content: space-evenly !important;
+}
+
+#backbutton {
+    color: white;
+}
+
+.add_item:hover {
+    color: #fc8019 !important;
+}

@@ -1,0 +1,8 @@
+
+#manage_dishes{
+    display:none;
+}
+a{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+.signup-form-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup-form-container .bottom-login{
+    text-align: center;
+}
+
+
+.mb-3 .pass-line{
+    display: flex;
+    align-items: center;
+}
+
+ #hide1{
+    display:none;
+}
+
+.user .btn{
+    background-color: #fc8019;
+    width:50%;
+}
+
+.user{
+    display: flex;
+
+}

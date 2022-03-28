@@ -1,0 +1,38 @@
+.login-form-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-form-container .bottom-login{
+    text-align: center;
+}
+.mb-3 .pass-line{
+    display: flex;
+    align-items: center;
+}
+
+ #hide1{
+    display:none;
+}
+.user .btn{
+    background-color: #fc8019;
+    width:50%;
+}
+
+.user{
+    display: flex;
+
+}
+@media (max-width:500px) { 
+    
+    .login-form-container{
+        width: 100%;
+    }
+}
+
+.password_module{
+    background-color:lightcoral;
+}
+.pass-line{
+    background-color:#00000047;
+}
